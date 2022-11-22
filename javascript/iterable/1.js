@@ -15,3 +15,9 @@ for(let el in obj){
     // 키를 가져옴
     console.log(el);
 }
+
+const iterator=array.values();
+console.log(iterator.next().value);
+console.log(iterator.next().value);
+console.log(iterator.next().value);
+console.log(iterator.next().done);
