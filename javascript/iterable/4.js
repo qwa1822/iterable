@@ -4,7 +4,7 @@
 // func(...iterable)
 // [...iterable]
 // {...obj}
-// 
+//
 // EcmaScript 2018 
 
 function add(a,b,c){
