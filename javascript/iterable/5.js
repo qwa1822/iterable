@@ -40,3 +40,20 @@ console.log(name);
 console.log(age);
 console.log(job);
 console.log(pet);
+
+const prop={
+    name:'Button',
+    styles:{
+        size:20,
+        color:'black',
+    },
+};
+
+
+// 컬러로 바로 적용 
+function changeColor({styles:{color}}){
+    console.log(color);
+}
+changeColor(prop);
+
+
