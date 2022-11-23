@@ -25,3 +25,11 @@ map.set('key3','😁');
 // 삭제 
 map.delete('key2');
 console.log(map);
+
+// 오브젝트와의 큰 차이점
+const key={
+    nae:'milk',price:10
+};
+const milk={name:'milk',price:10,
+dsecrition:"author"};
+

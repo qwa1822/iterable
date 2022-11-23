@@ -19,3 +19,18 @@ for(const value of set1){
 
 str3=new Set(str3);
 console.log(str3);
+
+
+function Filter(a,b){
+    const=a.filter((value)=>{
+        if(b.has(value));
+        return new Set(array);
+    })
+
+
+}
+
+
+
+
+
